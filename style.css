@@ -1,0 +1,179 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Manrope", sans-serif;
+}
+:root{
+    --primary-color:rgb(75, 144, 144);
+    --bg-color:azure;
+    --text-color:dimgray;
+    --border-color: #0b1e4b;
+}
+
+.header{
+   width: 100%;
+  box-shadow: 0px 10px 18px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+   z-index: 10;
+   
+}
+
+.navbar{
+    
+    background-color: white;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.hero{
+    z-index: 0;
+    height:auto;
+    background-color: var(--bg-color);
+   
+}
+.hero-content{
+    
+    width:80%;
+    min-height: 300px;
+    padding: 150px 0;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:center
+}
+
+.hero-content h1{
+    width: 50%;
+    font-size: 3rem;
+    line-height: 1.5;
+    color:var(--primary-color);
+}
+
+h2{
+    color:rgb(75, 144, 144);   
+}
+.hero-content p{
+    font-size: 1.5rem;
+    margin:10px 0;
+    color:dimgray
+}
+.logo{
+    font-weight: 900;
+    font-size: 2.3rem;
+    color:var(--primary-color)
+}
+.menu-items a{
+    margin-left: 50px;
+    color: var(--text-color);
+}
+.container{
+    width:80%;
+    margin: auto auto;
+   
+}
+
+a{text-decoration:none}
+
+
+a:hover{
+    color:var(--primary-color);
+}
+
+a:active{
+    color:var(--primary-color);
+}
+main{
+    padding: 7% 0;
+}
+
+main section{
+    margin:50px 0;
+}
+
+main section p{
+    color:rgb(71, 70, 70);
+    line-height: 1.5em;
+
+}
+ .sub-title{
+margin-bottom: 10px;
+}
+
+.footer{
+    width:100%;
+    background-color: rgb(75, 144, 144);
+}
+.footer-content{
+    padding: 20px 0
+}
+
+
+/*Form Style*/
+
+.form{
+    width:70%;
+    margin:auto;
+    box-shadow: 0px 10px 18px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    padding: 80px;
+    border-radius: 4px;
+    overflow: hidden;
+
+}
+
+.form-content{
+    display:flex;
+    flex-wrap: wrap;
+    color: var(--text-color);
+    gap:5%;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    width:47.5%;
+    
+    margin-top:12px;
+}
+
+.input-box label{
+    color:var(--primary-color);
+    line-height: 2rem;
+}
+
+.input-box input, select{
+    padding: 12px 10px;
+    font-size:1rem;
+    border-radius: 4px;
+    border: solid 0.1px dimgray;
+    outline:none;
+    color:var(--text-color);
+   
+}
+.form-content p{
+    margin-top: 20px;
+    line-height: 1.5em;
+
+}
+.btn{
+    margin-top: 20px;
+    width: 100%;
+    padding: 1rem .7rem;
+    background-color: var(--primary-color);
+    outline: none;
+    border:none;
+    color:white;
+    
+}
+
+.btn:hover{
+    background-color:var(--bg-color);
+    color:var(--text-color);
+}
+
+
+
